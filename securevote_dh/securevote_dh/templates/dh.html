@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Diffie Hellman</title>
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h2>Diffie-Hellman Key Exchange</h2>
+
+<button onclick="runDH()" class="btn">Run Key Exchange</button>
+
+<p>Alice Public Key: <span id="A"></span></p>
+<p>Bob Public Key: <span id="B"></span></p>
+<p>Shared Secret: <span id="secret"></span></p>
+
+<a href="/vote_page">
+<button class="btn">Proceed to Voting</button>
+</a>
+
+</div>
+
+<script src="/static/dh.js"></script>
+
+</body>
+</html>
